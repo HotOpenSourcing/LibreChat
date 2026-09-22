@@ -81,7 +81,6 @@ librechat.yaml
 librechat.yml
 
 # Environment
-.env*
 my.secrets
 !**/.env.example
 !**/.env.test.example
@@ -89,7 +88,6 @@ cache.json
 api/data/
 owner.yml
 archive
-.vscode/settings.json
 src/style - official.css
 /e2e/specs/.test-results/
 /e2e/benchmarks/.test-results/
@@ -193,3 +191,4 @@ scripts/activity-labels/results/
 !e2e/lighthouse/librechat.yaml
 /.lighthouse/
 /e2e/lighthouse/.test-results/
+config.bat
